@@ -9,6 +9,8 @@ import Logo from "./components/DisplayComponents/Logo";
 import Display from "./components/DisplayComponents/Display";
 import Operators from "./components/ButtonComponents/OperatorButtons/Operators"
 import Numbers from "./components/ButtonComponents/NumberButtons/Numbers"
+import Specials from "./components/ButtonComponents/SpecialButtons/Specials"
+
 
 function App() {
   // STEP 5 - After you get the components displaying using the provided data file, write your state hooks here.
@@ -26,8 +28,11 @@ function App() {
 				<Logo />
 				<Display result={result}/>
 				<div className="buttons-container">
+					<div className="btn-gtoup-one">
+						<Specials/>
+						<Numbers/>
+					</div>
 					<Operators/>
-					<Numbers/>
 				</div>
       </div>
     </div>

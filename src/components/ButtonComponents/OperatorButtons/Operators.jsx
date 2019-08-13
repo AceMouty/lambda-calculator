@@ -11,7 +11,7 @@ const Operators = () => {
 	
 	const [operator, setOperator] = useState(data.operators);
   return (
-    <div>
+    <div className="operators-container">
       {operator.map(opr => <OperatorButton key={opr.id} buttonChar={opr.char}/>)}
     </div>
   );

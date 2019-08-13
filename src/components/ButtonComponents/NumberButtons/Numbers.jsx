@@ -10,7 +10,7 @@ const Numbers = () => {
 	// STEP 2 - add the imported data to state
 	const [numbers, setNumber] = useState(data.numbers)
   return (
-    <div>
+    <div className="number-container">
       {numbers.map(number => <NumberButton key={number} number={number}/>)}
     </div>
   );

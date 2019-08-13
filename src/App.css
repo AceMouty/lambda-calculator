@@ -26,3 +26,46 @@ html{
 	background: #2D2829;
 	border-radius: 6rem;
 }
+
+.buttons-container {
+	border: 2px solid lime;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.special-buttons-container,
+.number-container{
+	border: 2px solid orange;
+	display: flex;
+	flex-wrap: wrap;
+	width:130%;
+	justify-content: space-around;
+}
+
+/* .number-container{
+	border: 2px solid orange;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+} */
+
+.number-container button {
+	width: 20%;
+	margin: 5%;
+}
+
+.number-container button:nth-child(10){
+	width: 54%;
+}
+
+.btn-oval {
+	width: 80%;
+}
+
+.operators-container{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid orange;
+}
+
