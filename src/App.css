@@ -1,0 +1,28 @@
+html{
+	font-size: 62.5%;
+}
+.container {
+	border: 1px solid #2D2829;
+	padding: 2.5rem;
+	background-color: #BB1233;
+	max-width: 750px;
+	margin: 0 auto;
+	border-radius: 1rem;
+	border-radius: 1rem;
+}
+
+.logo-container{
+	margin-bottom: 2.5rem;
+}
+
+.display-container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color: white;
+	font-size: 7rem;
+	padding-right: 5rem;
+	height: 10rem;
+	background: #2D2829;
+	border-radius: 6rem;
+}
