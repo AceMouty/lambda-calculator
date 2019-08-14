@@ -1,0 +1,88 @@
+html{
+	font-size: 62.5%;
+}
+
+
+/* Utility Classes */
+
+.btn {
+	border:2px solid #2D2829;
+	border-radius: 5rem;
+	height: 10rem;
+	width: 10rem;
+	font-size: 5rem;
+	margin: .5rem;
+	color: white;
+}
+
+.number-container .btn:nth-child(10){
+	flex-grow: 2;
+}
+
+.btn-dark {
+	background-color: #113C78;
+}
+
+.btn-light{
+	background-color: #3DB5E5;
+}
+
+.btn-special{
+	background-color: #2061B0;
+}
+
+
+/* Main Styling */
+
+/* Calculator Body */
+.container {
+	border: 1px solid #2D2829;
+	padding: 2.5rem;
+	background-color: #BB1233;
+	max-width: 500px;
+	margin: 0 auto;
+	border-radius: 1rem;
+	border-radius: 1rem;
+}
+
+/* Lambda Logo */
+.logo-container{
+	margin-bottom: 2.5rem;
+}
+
+/* Calculator Output */
+.display-container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color: white;
+	font-size: 7rem;
+	padding-right: 5rem;
+	height: 10rem;
+	background: #2D2829;
+	border-radius: 6rem;
+}
+
+/* Main Container For All Buttons */
+.buttons-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* Container For All Numbers */
+.number-container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 33rem;
+}
+
+/* Conatiner For Operator Buttons */
+.operators-container{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
