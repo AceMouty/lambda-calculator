@@ -27,13 +27,18 @@ function App() {
 				{/* STEP 4 - Render your components here and be sure to properly import/export all files */}
 				<Logo />
 				<Display result={result}/>
+
 				<div className="buttons-container">
+					
 					<div className="btn-gtoup-one">
 						<Specials/>
 						<Numbers/>
 					</div>
+
 					<Operators/>
+					
 				</div>
+
       </div>
     </div>
   );
